@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:SyncfusionTest"
+             xmlns:sf="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
+             x:Class="SyncfusionTest.MainPage">
+
+    <StackLayout>
+
+        <sf:SfLinearProgressBar Progress="50"
+                                HeightRequest="30"
+                                ProgressColor="Purple"
+                                BackgroundColor="Orange"
+                                VerticalOptions="Center"
+                                HorizontalOptions="CenterAndExpand"/>
+
+    </StackLayout>
+
+</ContentPage>
